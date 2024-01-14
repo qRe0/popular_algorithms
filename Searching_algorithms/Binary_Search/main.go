@@ -7,6 +7,8 @@ import (
 	"fmt"
 )
 
+// Explanation: https://www.programiz.com/dsa/binary-search
+
 func binarySearch(arr []int, key int) []int {
 	var ans []int
 
@@ -37,3 +39,5 @@ func main() {
 
 	fmt.Printf("Found at index: %v\n", ans)
 }
+
+// Output: "Found at index: [2]"

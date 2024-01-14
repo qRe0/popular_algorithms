@@ -10,6 +10,8 @@ import (
 	"fmt"
 )
 
+// Explanation: https://www.programiz.com/dsa/bubble-sort
+
 func bubbleSort(arr []int) {
 	for i := 0; i < len(arr); i++ {
 		for j := 0; j < len(arr)-i-1; j++ {
@@ -27,3 +29,5 @@ func main() {
 
 	fmt.Printf("Sorted array: %v\n", a)
 }
+
+// Output: "Sorted array: [1 2 3 4 5]"

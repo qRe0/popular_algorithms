@@ -5,6 +5,8 @@ package main
 
 import "fmt"
 
+// Explanation: https://www.programiz.com/dsa/linear-search
+
 func linearSearch(arr []int, key int) []int {
 	var ans []int
 	for i, elem := range arr {
@@ -22,3 +24,5 @@ func main() {
 
 	fmt.Printf("Found at indexes: %v\n", ans)
 }
+
+// Output: "Found at indexes: [1 4 9]"

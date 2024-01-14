@@ -10,6 +10,8 @@ import (
 	"fmt"
 )
 
+// Explanation: https://www.programiz.com/dsa/insertion-sort
+
 func insertionSort(arr []int) {
 	for i := 1; i < len(arr); i++ {
 		key := arr[i]
@@ -32,3 +34,5 @@ func main() {
 
 	fmt.Printf("Sorted array: %v\n", a)
 }
+
+// Output: "Sorted array: [1 2 3 4 5]"
