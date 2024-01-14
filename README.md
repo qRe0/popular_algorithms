@@ -7,7 +7,7 @@
 - Binary search
 
 ## Sorting algorithms
-- Buble sort
+- Bubble sort
 - Insertion sort
 - Selection sort
 - Merge sort
