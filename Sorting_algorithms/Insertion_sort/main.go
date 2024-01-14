@@ -19,7 +19,6 @@ func insertionSort(arr []int) {
 
 		for j >= 0 && arr[j] > key {
 			arr[j+1] = arr[j]
-
 			j--
 		}
 
